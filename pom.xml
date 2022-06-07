@@ -4,7 +4,7 @@
   <groupId>com.jeanbTokamdevopslab</groupId>
   <artifactId>jeanbTokamDevOpsLab</artifactId>
   <packaging>war</packaging>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <name>jeanbTokamDevOpsLab</name>
   <url>http://maven.apache.org</url>
   <dependencies>
