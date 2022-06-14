@@ -4,7 +4,7 @@
   <groupId>com.tokam</groupId>
   <artifactId>Tokam</artifactId>
   <packaging>war</packaging>
-  <version>0.0.4</version>
+  <version>0.0.4-SNAPSHOT</version>
   <name>TokamDevOps</name>
   <url>http://maven.apache.org</url>
   <dependencies>
