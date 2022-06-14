@@ -71,5 +71,3 @@ pipeline{
 
 
     
-
-nexusArtifactUploader artifacts: [[artifactId: 'Tokam', classifier: '', file: 'target/Tokam-0.0.4-SNAPSHOT.war', type: 'war']], credentialsId: 'b283ae09-6017-4fc6-84e6-f0861729e0fb', groupId: 'com.tokam', nexusUrl: '172.20.10.5', nexusVersion: 'nexus3', protocol: 'http', repository: 'Tokam-SNAPSHOT', version: '0.0.4'
