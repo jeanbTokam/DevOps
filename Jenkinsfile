@@ -41,7 +41,7 @@ pipeline{
                 type: 'war']], 
                 credentialsId: 'b283ae09-6017-4fc6-84e6-f0861729e0fb', 
                 groupId: "${GroupId}", 
-                nexusUrl: '18.117.137.182:8081', 
+                nexusUrl: '170.20.10.5:8081', 
                 nexusVersion: 'nexus3', 
                 protocol: 'http', 
                 repository: "${NexusRepo}", 
@@ -72,4 +72,4 @@ pipeline{
 
     
 
-
+nexusArtifactUploader artifacts: [[artifactId: 'Tokam', classifier: '', file: 'target/Tokam-0.0.4-SNAPSHOT.war', type: 'war']], credentialsId: 'b283ae09-6017-4fc6-84e6-f0861729e0fb', groupId: 'com.tokam', nexusUrl: '172.20.10.5', nexusVersion: 'nexus3', protocol: 'http', repository: 'Tokam-SNAPSHOT', version: '0.0.4'
